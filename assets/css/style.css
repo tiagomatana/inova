@@ -1,0 +1,25 @@
+#slides_control > div{
+  height: 200px;
+  width: 400px;
+}
+img{
+  margin:auto;
+  width: 400px;
+}
+#slides_control {
+  position:absolute;
+  width: 400px;
+  left:50%;
+  top:20px;
+ margin-left:-200px;
+}
+md-card {
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin-bottom: 20px;
+}
+
+md-icon {
+  margin: 0;
+}

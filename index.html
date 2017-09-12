@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html ng-app="InovaApp" ng-cloak>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script data-require="angular.js@*" data-semver="1.5.0" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+    <script src="https://code.angularjs.org/1.5.0/angular-animate.min.js"></script>
+    <script src="https://code.angularjs.org/1.5.0/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.5/angular-material.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.5/angular-material.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Angular Material style sheet -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/jk-carousel.min.css">
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.5/angular-material.min.css" />
+</head>
+
+<body>
+  <md-toolbar md-scroll-shrink>
+    <div class="md-toolbar-tools">
+      <md-button class="md-icon-button">
+        <md-icon md-svg-icon="assets/icons/menu.svg"></md-icon>
+      </md-button>
+
+      <h2><b>INOVA</b> <br>Soluções em Energia Elétrica</h2>
+
+    </div>
+  </md-toolbar>
+
+
+
+    <md-card layout="column" layout-align="center center" style="padding: 0" ng-controller="MyCtrl">
+      <!-- <img src="assets/images/logo.jpg" style="height:auto;width:15em;padding:20px" alt=""> -->
+      <jk-carousel data="dataArray" item-template-url="'app/banner/item-template.html'" max-width="900" max-height="380" auto-slide="true" auto-slide-time="3000">
+      </jk-carousel>
+    </md-card>
+
+
+
+
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script data-require="angular.js@*" data-semver="1.5.0" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+  <script src="https://code.angularjs.org/1.5.0/angular-animate.min.js"></script>
+  <script src="https://code.angularjs.org/1.5.0/angular-aria.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+
+
+  <script src="assets/js/jk-carousel.min.js" charset="utf-8"></script>
+  <script src="app/index.js" charset="utf-8"></script>
+  <script src="app/banner/banner.js" charset="utf-8"></script>
+
+</body>
+
+</html>
