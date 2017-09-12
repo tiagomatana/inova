@@ -30,23 +30,14 @@
 
 
 
+    <md-card layout="column" layout-align="center center" style="margin:0;border:none;box-shadow:none" ng-controller="MyCtrl">
+      <!-- <img src="assets/images/logo.jpg" style="height:auto;width:15em;padding:20px" alt=""> -->
+      <jk-carousel data="dataArray" item-template-url="'app/banner/item-template.html'" max-width="800" max-height="360" auto-slide="true" auto-slide-time="3000">
+      </jk-carousel>
+    </md-card>
 
 
 
-    <md-card ng-controller="MyCtrl">
-            <md-card-title>
-              <md-card-title-text>
-                <span class="md-headline">Card with image</span>
-                <span class="md-subhead">Extra Large</span>
-              </md-card-title-text>
-            </md-card-title>
-            <md-card-content layout="row" layout-align="center center" style="padding-bottom: 10px">
-              <jk-carousel data="dataArray" item-template-url="'app/banner/item-template.html'" max-width="800" max-height="380" auto-slide="true" auto-slide-time="3000">
-              </jk-carousel>
-
-
-            </md-card-content>
-          </md-card>
 
   <!-- Angular Material requires Angular.js Libraries -->
   <script data-require="angular.js@*" data-semver="1.5.0" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
