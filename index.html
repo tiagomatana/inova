@@ -20,42 +20,43 @@
 
   <section layout="row" flex ng-controller="MyCtrl" ng-cloak>
 
-    <md-sidenav class="md-sidenav-left" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')" md-whiteframe="4" layout-align="center center">
+    <md-sidenav class="md-sidenav-left" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')" md-whiteframe="4" style="background-color: #0004f2; color:#ffffff;">
 
-      <md-content flex="" role="navigation" class="_md flex">
-        <header class="nav-header" layout-padding>
-          <img src="assets/images/logo.jpg" alt="">
-        </header>
-        <md-list>
+      <header class="nav-header" layout-padding style="background-color: #ffffff; color:#ffffff;">
+        <img src="assets/images/logo.jpg" alt="">
+      </header>
+      <md-divider></md-divider>
+      <md-content role="navigation" style="background-color: #0004f2; color:#ffffff;">
+        <md-list class="menu">
           <!-- <md-subheader class="md-no-sticky">Favorites</md-subheader> -->
           <md-list-item>
             <a class="md-button md-ink-ripple link">
-              <md-icon class="md-default-theme" class="material-icons">&#xE0C9;</md-icon>
-              <span>Messages</span>
+              <md-icon class="material-icons" style="color: #fff">group</md-icon>
+              <span>Quem somos</span>
             </a>
           </md-list-item>
           <md-list-item>
             <a class="md-button md-ink-ripple link">
-              <md-icon class="md-default-theme" class="material-icons">&#xE878;</md-icon>
-              <span>Events</span>
+              <md-icon style="color: #fff" class="material-icons">wb_sunny</md-icon>
+              <span>Energia Solar</span>
             </a>
           </md-list-item>
           <md-list-item>
             <a class="md-button md-ink-ripple link">
-              <md-icon class="md-default-theme" class="material-icons">&#xE251;</md-icon>
-              <span>Photos</span>
+              <md-icon style="color: #fff" class="material-icons">build</md-icon>
+              <span>Serviços</span>
             </a>
           </md-list-item>
           <md-list-item layout="row">
             <a class="md-button md-ink-ripple link">
-              <md-icon class="md-default-theme" class="material-icons">&#xE7F9;</md-icon>
-              <span>Pages Feed</span>
+              <md-icon style="color: #fff" class="material-icons">create</md-icon>
+              <span>Estudos Técnicos</span>
             </a>
           </md-list-item>
           <md-list-item>
             <a class="md-button md-ink-ripple link">
-              <md-icon class="md-default-theme" class="material-icons">&#xE1BC;</md-icon>
-              <span>Like Pages</span>
+              <md-icon style="color: #fff" class="material-icons">email</md-icon>
+              <span>Contato</span>
             </a>
           </md-list-item>
         </md-list>
@@ -63,11 +64,11 @@
 
     </md-sidenav>
     <div layout="column" tabindex="-1" role="main" flex="" class="layout-column flex">
-      <md-toolbar class="md-whiteframe-glow-z1 site-content-toolbar _md _md-toolbar-transitions" style="background: #0004f2" layout-align="start start">
+      <md-toolbar class="md-whiteframe-5dp md-primary" style="background: #0004f2;color: #fff;" layout-align="start start" hide-gt-sm>
         <div class="md-toolbar-tools">
 
 
-          <md-button class="md-icon-button" ng-click="toggleMenu()" hide-gt-sm>
+          <md-button class="md-icon-button" ng-click="toggleMenu()" >
             <md-icon class="material-icons">&#xE5D2;</md-icon>
           </md-button>
           <h2 class="md-toolbar-item md-breadcrumb md-headline ng-isolate-scope">

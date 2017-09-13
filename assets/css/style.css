@@ -26,7 +26,10 @@ md-icon {
 a {
   text-decoration: none !important;
 }
-
+.menu {
+  background-color: #106CC8 !important;
+  color: #ffffff;
+}
 
 .link {
   display: block;
