@@ -4,37 +4,99 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script data-require="angular.js@*" data-semver="1.5.0" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
-    <script src="https://code.angularjs.org/1.5.0/angular-animate.min.js"></script>
-    <script src="https://code.angularjs.org/1.5.0/angular-aria.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.5/angular-material.min.js"></script>
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.5/angular-material.min.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://code.angularjs.org/1.5.0/angular-animate.min.js"></script>
+  <script src="https://code.angularjs.org/1.5.0/angular-aria.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.5/angular-material.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.5/angular-material.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!-- Angular Material style sheet -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/jk-carousel.min.css">
-<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.5/angular-material.min.css" />
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.5/angular-material.min.css" />
 </head>
 
-<body>
-  <md-toolbar md-scroll-shrink>
-    <div class="md-toolbar-tools">
-      <md-button class="md-icon-button">
-        <md-icon md-svg-icon="assets/icons/menu.svg"></md-icon>
-      </md-button>
+<body layout="row">
 
-      <h2><b>INOVA</b> <br>Soluções em Energia Elétrica</h2>
+  <section layout="row" flex ng-controller="MyCtrl" ng-cloak>
 
+    <md-sidenav class="md-sidenav-left" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')" md-whiteframe="4" layout-align="center center">
+
+      <md-content flex="" role="navigation" class="_md flex">
+        <header class="nav-header" layout-padding>
+          <img src="assets/images/logo.jpg" alt="">
+        </header>
+        <md-list>
+          <!-- <md-subheader class="md-no-sticky">Favorites</md-subheader> -->
+          <md-list-item>
+            <a class="md-button md-ink-ripple link">
+              <md-icon class="md-default-theme" class="material-icons">&#xE0C9;</md-icon>
+              <span>Messages</span>
+            </a>
+          </md-list-item>
+          <md-list-item>
+            <a class="md-button md-ink-ripple link">
+              <md-icon class="md-default-theme" class="material-icons">&#xE878;</md-icon>
+              <span>Events</span>
+            </a>
+          </md-list-item>
+          <md-list-item>
+            <a class="md-button md-ink-ripple link">
+              <md-icon class="md-default-theme" class="material-icons">&#xE251;</md-icon>
+              <span>Photos</span>
+            </a>
+          </md-list-item>
+          <md-list-item layout="row">
+            <a class="md-button md-ink-ripple link">
+              <md-icon class="md-default-theme" class="material-icons">&#xE7F9;</md-icon>
+              <span>Pages Feed</span>
+            </a>
+          </md-list-item>
+          <md-list-item>
+            <a class="md-button md-ink-ripple link">
+              <md-icon class="md-default-theme" class="material-icons">&#xE1BC;</md-icon>
+              <span>Like Pages</span>
+            </a>
+          </md-list-item>
+        </md-list>
+      </md-content>
+
+    </md-sidenav>
+    <div layout="column" tabindex="-1" role="main" flex="" class="layout-column flex">
+      <md-toolbar class="md-whiteframe-glow-z1 site-content-toolbar _md _md-toolbar-transitions" style="background: #0004f2" layout-align="start start">
+        <div class="md-toolbar-tools">
+
+
+          <md-button class="md-icon-button" ng-click="toggleMenu()" hide-gt-sm>
+            <md-icon class="material-icons">&#xE5D2;</md-icon>
+          </md-button>
+          <h2 class="md-toolbar-item md-breadcrumb md-headline ng-isolate-scope">
+            Seja Bem Vindo!
+          </h2>
+
+        </div>
+      </md-toolbar>
+
+      <md-content flex layout-padding>
+
+
+
+        <md-card layout="column" layout-align="center center" style="margin:0;border:none;box-shadow:none">
+          <!-- <img src="assets/images/logo.jpg" style="height:auto;width:15em;padding:20px" alt=""> -->
+          <jk-carousel data="dataArray" item-template-url="'app/banner/item-template.html'" max-width="800" max-height="360" auto-slide="true" auto-slide-time="3000">
+          </jk-carousel>
+        </md-card>
+
+
+
+<span flex></span>
+      </md-content>
     </div>
-  </md-toolbar>
+  </section>
 
 
 
-    <md-card layout="column" layout-align="center center" style="margin:0;border:none;box-shadow:none" ng-controller="MyCtrl">
-      <!-- <img src="assets/images/logo.jpg" style="height:auto;width:15em;padding:20px" alt=""> -->
-      <jk-carousel data="dataArray" item-template-url="'app/banner/item-template.html'" max-width="800" max-height="360" auto-slide="true" auto-slide-time="3000">
-      </jk-carousel>
-    </md-card>
+
 
 
 
@@ -49,8 +111,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
 
 
+  <script src="app/index.js"></script>
   <script src="assets/js/jk-carousel.min.js" charset="utf-8"></script>
-  <script src="app/index.js" charset="utf-8"></script>
   <script src="app/banner/banner.js" charset="utf-8"></script>
 
 </body>

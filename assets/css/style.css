@@ -23,3 +23,15 @@ md-card {
 md-icon {
   margin: 0;
 }
+a {
+  text-decoration: none !important;
+}
+
+
+.link {
+  display: block;
+  padding: 0 16px 0 32px;
+  text-transform: none;
+  text-rendering: optimizeLegibility;
+  font-weight: 500;
+}
