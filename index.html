@@ -20,49 +20,7 @@
 
   <section layout="row" flex ng-controller="MyCtrl" ng-cloak>
 
-    <md-sidenav class="md-sidenav-left" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')" md-whiteframe="4" style="background-color: #0004f2; color:#ffffff;">
-
-      <header class="nav-header" layout-padding style="background-color: #ffffff; color:#ffffff;">
-        <img src="assets/images/logo.jpg" alt="">
-      </header>
-      <md-divider></md-divider>
-      <md-content role="navigation" style="background-color: #0004f2; color:#ffffff;">
-        <md-list class="menu">
-          <!-- <md-subheader class="md-no-sticky">Favorites</md-subheader> -->
-          <md-list-item>
-            <a class="md-button md-ink-ripple link">
-              <md-icon class="material-icons" style="color: #fff">group</md-icon>
-              <span>Quem somos</span>
-            </a>
-          </md-list-item>
-          <md-list-item>
-            <a class="md-button md-ink-ripple link">
-              <md-icon style="color: #fff" class="material-icons">wb_sunny</md-icon>
-              <span>Energia Solar</span>
-            </a>
-          </md-list-item>
-          <md-list-item>
-            <a class="md-button md-ink-ripple link">
-              <md-icon style="color: #fff" class="material-icons">build</md-icon>
-              <span>Serviços</span>
-            </a>
-          </md-list-item>
-          <md-list-item layout="row">
-            <a class="md-button md-ink-ripple link">
-              <md-icon style="color: #fff" class="material-icons">create</md-icon>
-              <span>Estudos Técnicos</span>
-            </a>
-          </md-list-item>
-          <md-list-item>
-            <a class="md-button md-ink-ripple link">
-              <md-icon style="color: #fff" class="material-icons">email</md-icon>
-              <span>Contato</span>
-            </a>
-          </md-list-item>
-        </md-list>
-      </md-content>
-
-    </md-sidenav>
+    <menu layout="row" style="margin:0; padding:0;"></menu>
     <div layout="column" tabindex="-1" role="main" flex="" class="layout-column flex">
       <md-toolbar class="md-whiteframe-5dp md-primary" style="background: #0004f2;color: #fff;" layout-align="start start" hide-gt-sm>
         <div class="md-toolbar-tools">
@@ -87,12 +45,9 @@
           <jk-carousel data="dataArray" item-template-url="'app/controller/item-template.html'" max-width="800" max-height="370" auto-slide="true" auto-slide-time="3000">
           </jk-carousel>
         </md-card>
+        <whats></whats>
+        <phone></phone>
 
-<a href="whatsapp://send?text=Olá%2C%20Inova!&phone=+555180257497&abid=+555180257497" hide-gt-sm>
-        <md-button print class="md-fab md-fab-bottom-right" style="padding:0;background:#009688">
-            <md-icon md-font-set="fa fa-whatsapp fa-2x" style="margin-top: -7px;margin-left:0px"></md-icon>
-          </md-button>
-        </a>
       </md-content>
     </div>
   </section>
@@ -117,6 +72,9 @@
   <script src="app/index.js"></script>
   <script src="assets/js/jk-carousel.min.js" charset="utf-8"></script>
   <script src="app/controller/controller.js" charset="utf-8"></script>
+  <script src="app/components/whatsapp/whatsapp-component.js" charset="utf-8"></script>
+  <script src="app/components/phone/phone-component.js" charset="utf-8"></script>
+  <script src="app/components/sidenav/menu-component.js" charset="utf-8"></script>
 
 </body>
 

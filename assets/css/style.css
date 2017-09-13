@@ -1,6 +1,6 @@
 #slides_control > div{
   height: 200px;
-  width: 400px;
+  width: 300px;
 }
 img{
   margin:auto;
@@ -8,7 +8,7 @@ img{
 }
 #slides_control {
   position:absolute;
-  width: 400px;
+  width: 300px;
   left:50%;
   top:20px;
  margin-left:-200px;
@@ -26,10 +26,7 @@ md-icon {
 a {
   text-decoration: none !important;
 }
-.menu {
-  background-color: #106CC8 !important;
-  color: #ffffff;
-}
+
 
 .link {
   display: block;
