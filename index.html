@@ -9,7 +9,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.5/angular-material.min.js"></script>
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.5/angular-material.min.css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
   <!-- Angular Material style sheet -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/jk-carousel.min.css">
@@ -81,15 +81,17 @@
 
 
 
-        <md-card layout="column" layout-align="center center" style="margin-right:22px;left:0;border:none;box-shadow:none">
-          <!-- <img src="assets/images/logo.jpg" style="height:auto;width:15em;padding:20px" alt=""> -->
+        <!-- <md-card layout="column" layout-align="center center" style="margin-right:22px;left:0;border:none;box-shadow:none">
+
           <jk-carousel data="dataArray" item-template-url="'app/controller/item-template.html'" max-width="800" max-height="360" auto-slide="true" auto-slide-time="3000">
           </jk-carousel>
-        </md-card>
+        </md-card> -->
 
-
-
-<span flex></span>
+<a href="whatsapp://send?text=Hello%2C%20World!">
+        <md-button print class="md-fab md-fab-bottom-right" style="padding:0;background:#009688">
+            <md-icon md-font-set="fa fa-whatsapp fa-2x" style="margin-top: -5px;margin-left:0px"></md-icon>
+          </md-button>
+        </a>
       </md-content>
     </div>
   </section>
