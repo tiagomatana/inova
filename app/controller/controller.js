@@ -1,5 +1,6 @@
 (function() {
-  angular.module('InovaApp', ['ngMaterial', 'jkAngularCarousel'])
+
+  angular.module('InovaApp')
 
     .controller('MyCtrl', function($scope, $timeout, $mdSidenav, $log) {
       $scope.dataArray = [{

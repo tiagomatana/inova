@@ -36,7 +36,7 @@
         </div>
       </md-toolbar>
 
-      <md-content flex style="background: #ffffff" show>
+      <md-content flex style="background: #ffffff" show layout-padding>
 
 
 
@@ -45,8 +45,8 @@
           <jk-carousel data="dataArray" item-template-url="'app/controller/item-template.html'" max-width="800" max-height="370" auto-slide="true" auto-slide-time="3000">
           </jk-carousel>
         </md-card>
-      
-        <phone></phone>
+
+        <div ng-view></div>
 
       </md-content>
     </div>
@@ -60,18 +60,21 @@
 
 
   <!-- Angular Material requires Angular.js Libraries -->
-  <script data-require="angular.js@*" data-semver="1.5.0" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script> -->
+  <script src="assets/js/angular-route.js"></script>
   <script src="https://code.angularjs.org/1.5.0/angular-animate.min.js"></script>
   <script src="https://code.angularjs.org/1.5.0/angular-aria.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-messages.min.js"></script>
 
   <!-- Angular Material Library -->
   <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
 
 
   <script src="app/index.js"></script>
+  <script src="app/routes/inova-route.js"></script>
+  <script src="app/controller/controller.js"></script>
   <script src="assets/js/jk-carousel.min.js" charset="utf-8"></script>
-  <script src="app/controller/controller.js" charset="utf-8"></script>
   <script src="app/components/whatsapp/whatsapp-component.js" charset="utf-8"></script>
   <script src="app/components/phone/phone-component.js" charset="utf-8"></script>
   <script src="app/components/sidenav/menu-component.js" charset="utf-8"></script>

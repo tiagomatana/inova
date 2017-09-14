@@ -17,7 +17,7 @@
     $mdBottomSheet.show({
       templateUrl: 'app/components/phone/phone-template.html',
       controller: self.controller,
-      clickOutsideToClose: false
+      clickOutsideToClose: true
     }).then(function(clickedItem) {
       $mdToast.show(
             $mdToast.simple()

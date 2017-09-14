@@ -2,7 +2,7 @@
 <md-sidenav class="md-sidenav-left" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')" md-whiteframe="4" style="background-color: #0004f2; color:#ffffff;padding:0">
 
   <header class="nav-header" layout-padding style="background-color: #ffffff; color:#ffffff;">
-    <md-button class="md-mini md-button md-fab md-fab-top-right" style="background:none;box-shadow:none; margin:-15px" ng-click="toggleMenu()">
+    <md-button hide-gt-sm class="md-mini md-button md-fab md-fab-top-right" style="background:none;box-shadow:none; margin:-15px" ng-click="toggleMenu()">
     <md-icon class="material-icons" style="color: #000">clear</md-icon>
   </md-button>
     <img src="assets/images/logo.jpg" alt="">
@@ -12,7 +12,13 @@
     <md-list class="menu">
       <!-- <md-subheader class="md-no-sticky">Favorites</md-subheader> -->
       <md-list-item>
-        <a class="md-button md-ink-ripple link">
+        <a class="md-button md-ink-ripple link" href="#/">
+          <md-icon class="material-icons" style="color: #fff">home</md-icon>
+          <span>Início</span>
+        </a>
+      </md-list-item>
+      <md-list-item>
+        <a class="md-button md-ink-ripple link" href="#/inova/">
           <md-icon class="material-icons" style="color: #fff">group</md-icon>
           <span>Quem somos</span>
         </a>
@@ -36,10 +42,7 @@
         </a>
       </md-list-item>
       <md-list-item>
-        <a class="md-button md-ink-ripple link">
-          <md-icon style="color: #fff" class="material-icons">email</md-icon>
-          <span>Contato</span>
-        </a>
+        <phone></phone>
       </md-list-item>
     </md-list>
   </md-content>

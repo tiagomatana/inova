@@ -1,4 +1,5 @@
 (function() {
-  angular.module('InovaApp', ['ngMaterial']);
+  'use strict';
+  angular.module('InovaApp', ['ngMaterial','jkAngularCarousel','ngRoute']);
 
 }());
