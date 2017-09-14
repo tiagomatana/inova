@@ -6,7 +6,7 @@ angular.module('InovaApp')
   .config(function($routeProvider) {
     $routeProvider
     .when("/",{
-      template: "<p>Olá</p>"
+      templateUrl: "templates/home.html"
     })
     .when("/inova", {
         templateUrl : "templates/quem-somos.html"

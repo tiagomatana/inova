@@ -1,7 +1,7 @@
 
-<md-sidenav class="md-sidenav-left" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')" md-whiteframe="4" style="background-color: #0004f2; color:#ffffff;padding:0">
+<md-sidenav class="md-sidenav-left" md-component-id="left" md-is-locked-open="$mdMedia('gt-sm')" md-whiteframe="4" style="background-color: #0004f2; color:#ffffff;padding:0;border:none;">
 
-  <header class="nav-header" layout-padding style="background-color: #ffffff; color:#ffffff;">
+  <header class="nav-header" layout-padding style="background-color: #ffffff; color:#ffffff;margin:0;">
     <md-button hide-gt-sm class="md-mini md-button md-fab md-fab-top-right" style="background:none;box-shadow:none; margin:-15px" ng-click="toggleMenu()">
     <md-icon class="material-icons" style="color: #000">clear</md-icon>
   </md-button>
@@ -12,31 +12,32 @@
     <md-list class="menu">
       <!-- <md-subheader class="md-no-sticky">Favorites</md-subheader> -->
       <md-list-item>
-        <a class="md-button md-ink-ripple link" href="#/">
+        <a class="md-button md-ink-ripple link" href="#/" ng-click="toggleMenu()">
           <md-icon class="material-icons" style="color: #fff">home</md-icon>
+          <!-- <md-icon md-svg-src="assets/icons/bola.svg" style="color: #000"></md-icon> -->
           <span>Início</span>
         </a>
       </md-list-item>
       <md-list-item>
-        <a class="md-button md-ink-ripple link" href="#/inova/">
+        <a class="md-button md-ink-ripple link" href="#/inova/" ng-click="toggleMenu()">
           <md-icon class="material-icons" style="color: #fff">group</md-icon>
           <span>Quem somos</span>
         </a>
       </md-list-item>
       <md-list-item>
-        <a class="md-button md-ink-ripple link">
+        <a class="md-button md-ink-ripple link" ng-click="toggleMenu()">
           <md-icon style="color: #fff" class="material-icons">wb_sunny</md-icon>
           <span>Energia Solar</span>
         </a>
       </md-list-item>
       <md-list-item>
-        <a class="md-button md-ink-ripple link">
+        <a class="md-button md-ink-ripple link" ng-click="toggleMenu()">
           <md-icon style="color: #fff" class="material-icons">build</md-icon>
           <span>Serviços</span>
         </a>
       </md-list-item>
       <md-list-item layout="row">
-        <a class="md-button md-ink-ripple link">
+        <a class="md-button md-ink-ripple link" ng-click="toggleMenu()">
           <md-icon style="color: #fff" class="material-icons">create</md-icon>
           <span>Estudos Técnicos</span>
         </a>

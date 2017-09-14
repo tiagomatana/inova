@@ -8,10 +8,11 @@
     '$scope',
     '$timeout',
     '$mdSidenav',
-    '$log'
+    '$log',
+    '$window'
   ]
 
-  function Controller($scope, $timeout, $mdSidenav, $log) {
+  function Controller($scope, $timeout, $mdSidenav, $log, $window) {
     $scope.toggleMenu = buildToggler('left');
 
     function debounce(func, wait, context) {
@@ -31,11 +32,16 @@
     function buildToggler(navID) {
       return function() {
         // Component lookup should always be available since we are not using `ng-if`
-        $mdSidenav(navID)
-          .toggle()
-          .then(function () {
-            $log.debug("toggle " + navID + " is done");
-          });
+        var windowWidth = $window.outerWidth;
+        console.log(windowWidth);
+        if (windowWidth < 960) {
+           // Execute code
+           $mdSidenav(navID)
+           .toggle()
+           .then(function () {
+             $log.debug("toggle " + navID + " is done");
+           });
+        }
       };
     }
   }
