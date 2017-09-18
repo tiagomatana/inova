@@ -32,7 +32,7 @@
     function buildToggler(navID) {
       return function() {
         // Component lookup should always be available since we are not using `ng-if`
-        var windowWidth = $window.outerWidth;
+        var windowWidth = $window.innerWidth;
         console.log(windowWidth);
         if (windowWidth < 960) {
            // Execute code
