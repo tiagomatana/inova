@@ -35,3 +35,7 @@ a {
   text-rendering: optimizeLegibility;
   font-weight: 500;
 }
+
+body {
+  font-family: 'Nunito', sans-serif !important;
+}
