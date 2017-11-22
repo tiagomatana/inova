@@ -781,7 +781,7 @@
 		align-self: flex-end;
 		width: 100%;
 		padding: 1.5em 0 1.5em 0;
-		/*color: rgba(255, 255, 255, 0.75);*/
+		color: rgba(255, 255, 255, 0.75);
 		cursor: default;
 		text-align: center;
 		display: 'block';
@@ -844,10 +844,11 @@
 			display: block;
 		}
 
-		@media screen and (max-width: 360px) {
+		@media screen and (max-width: 460px) {
 
 			#wrapper {
 				padding: 0.75em;
+				display: fixed;
 			}
 
 		}

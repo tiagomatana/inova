@@ -20,7 +20,7 @@
 				<!-- Main -->
 					<section id="main">
 						<header>
-							<span><img src="images/logocompleto.png" width="250" alt="" /></span>
+							<span><img src="images/logocompleto.png" width="200" alt="" /></span>
 							<!-- <h1>INOVA ENERGIA SOLAR</h1>
 							<p>Senior Psychonautics Engineer</p> -->
 							<?php
@@ -59,9 +59,9 @@
 								<input type="email" name="email" id="email" placeholder="Email" />
 							</div>
 							<div class="field">
-								<input type="tel" name="fone" id="fone" placeholder="Telefone" />
+								<input type="text" name="fone" id="fone" placeholder="Telefone" />
 							</div>
-							<div class="field">
+							<!-- <div class="field">
 								<div class="select-wrapper">
 									<select name="department" id="department">
 										<option value="">Departamento</option>
@@ -70,7 +70,7 @@
 										<option value="CONSULTORIA">Consultoria</option>
 									</select>
 								</div>
-							</div>
+							</div> -->
 							<div class="field">
 								<textarea name="message" id="message" placeholder="Mensagem" rows="4"></textarea>
 							</div>

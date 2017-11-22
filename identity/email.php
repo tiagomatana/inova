@@ -8,7 +8,8 @@ error_reporting (E_ALL);
 
 $name = strtoupper($_POST['name']);
 $from = strtolower($_POST['email']);
-$subject = strtoupper($_POST['department']." - ".$_POST['client']);
+// $subject = strtoupper($_POST['department']." - ".$_POST['client']);
+$subject = strtoupper($_POST['client']);
 $message = strtolower($_POST['message']);
 $fone = $_POST['fone'];
 
