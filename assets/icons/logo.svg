@@ -15,7 +15,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.1 r15371"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="logo.svg">
   <defs
      id="defs2">
@@ -191,15 +191,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.175"
-     inkscape:cx="658.81877"
+     inkscape:cx="-332.6098"
      inkscape:cy="-564.49478"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1635"
-     inkscape:window-height="1026"
-     inkscape:window-x="45"
-     inkscape:window-y="54"
+     inkscape:window-width="1920"
+     inkscape:window-height="968"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -235,7 +235,8 @@
        inkscape:export-ydpi="150"
        inkscape:export-xdpi="150"
        transform="translate(451.85817,609.29761)"
-       id="g1120">
+       id="g1120"
+       inkscape:export-filename="/home/tiago/matana/inova/identity/images/favicon.png">
       <g
          id="g1116">
         <rect
