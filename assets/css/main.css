@@ -90,7 +90,11 @@
 		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
 		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
 		background-repeat: repeat,			no-repeat,			no-repeat;
+<<<<<<< HEAD
 		background-size: 100px 150px, cover,				cover;
+=======
+		background-size: 100px 100px, cover,				cover;
+>>>>>>> 1f361af8a6aad1cfc92a5a19c14d26a4875a823b
 		background-position: top left,		center center,		bottom center;
 		background-attachment: fixed,			fixed,				fixed;
 	}
@@ -704,7 +708,11 @@
 		position: relative;
 		max-width: 100%;
 		min-width: 27em;
+<<<<<<< HEAD
 		padding: 1.5em 3em 0em 3em ;
+=======
+		padding: 1.5em 3em 3em 3em ;
+>>>>>>> 1f361af8a6aad1cfc92a5a19c14d26a4875a823b
 		background: #ffffff;
 		border-radius: 4px;
 		cursor: default;
@@ -754,7 +762,11 @@
 			#main {
 				min-width: 0;
 				width: 100%;
+<<<<<<< HEAD
 				padding: 4em 2em 0em 2em ;
+=======
+				padding: 4em 2em 2.5em 2em ;
+>>>>>>> 1f361af8a6aad1cfc92a5a19c14d26a4875a823b
 			}
 
 				#main .avatar:before {
@@ -781,10 +793,17 @@
 		align-self: flex-end;
 		width: 100%;
 		padding: 1.5em 0 1.5em 0;
+<<<<<<< HEAD
 		/*color: rgba(255, 255, 255, 0.75);*/
 		cursor: default;
 		text-align: center;
 		display: block;
+=======
+		color: rgba(255, 255, 255, 0.75);
+		cursor: default;
+		text-align: center;
+		display: 'block';
+>>>>>>> 1f361af8a6aad1cfc92a5a19c14d26a4875a823b
 	}
 
 		#footer .copyright {
