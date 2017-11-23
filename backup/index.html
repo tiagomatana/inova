@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html ng-app="InovaApp" ng-cloak>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <script data-require="angular.js@*" data-semver="1.5.0" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+  <script src="https://code.angularjs.org/1.5.0/angular-animate.min.js"></script>
+  <script src="https://code.angularjs.org/1.5.0/angular-aria.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.5/angular-material.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.5/angular-material.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+  <!-- Angular Material style sheet -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/jk-carousel.min.css">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.5/angular-material.min.css" />
+</head>
+
+<body layout="row">
+
+  <section layout="row" flex ng-controller="MyCtrl" ng-cloak>
+
+    <menu layout="row" style="margin:0; padding:0;"></menu>
+    <div layout="column" tabindex="-1" role="main" flex="" class="layout-column flex">
+      <md-toolbar class="md-whiteframe-5dp md-primary" style="background: #222;color: #fff;" layout-align="start start" >
+        <div class="md-toolbar-tools">
+
+
+          <md-button class="md-icon-button" ng-click="toggleMenu()" hide-gt-sm>
+            <md-icon class="material-icons">&#xE5D2;</md-icon>
+          </md-button>
+          <h2 class="md-toolbar-item md-breadcrumb md-headline ng-isolate-scope">
+            <md-icon md-svg-src="assets/icons/logo.svg" style="color: #fff"></md-icon>
+            INOVA ENERGIA
+          </h2>
+
+        </div>
+      </md-toolbar>
+
+      <md-content flex style="background: #ffffff" show layout-padding>
+
+
+
+
+
+        <div ng-view></div>
+
+      </md-content>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script> -->
+  <script src="assets/js/angular-route.js"></script>
+  <script src="https://code.angularjs.org/1.5.0/angular-animate.min.js"></script>
+  <script src="https://code.angularjs.org/1.5.0/angular-aria.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-messages.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+
+
+  <script src="app/index.js"></script>
+  <script src="app/routes/inova-route.js"></script>
+  <script src="app/controller/controller.js"></script>
+  <script src="assets/js/jk-carousel.min.js" charset="utf-8"></script>
+  <script src="app/components/whatsapp/whatsapp-component.js" charset="utf-8"></script>
+  <script src="app/components/phone/phone-component.js" charset="utf-8"></script>
+  <script src="app/components/sidenav/menu-component.js" charset="utf-8"></script>
+
+</body>
+
+</html>
