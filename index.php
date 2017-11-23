@@ -101,7 +101,7 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="copyright">
-							<li>&copy; INOVA ENERGIA SOLAR</li><li>Development: <a href="https://tiagomatana.com">TIAGO MATANA</a></li>
+							<li>&copy; INOVA</li><li>Development: <a href="https://tiagomatana.com">TMD</a></li>
 						</ul>
 					</footer>
 
