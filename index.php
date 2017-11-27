@@ -20,7 +20,7 @@
 				<!-- Main -->
 					<section id="main">
 						<header>
-							<span><img src="images/logocompleto.png" width="200" alt="" /></span>
+							<span><img src="images/logocompleto.png" width="180" alt="" /></span>
 							<!-- <h1>INOVA ENERGIA SOLAR</h1>
 							<p>Senior Psychonautics Engineer</p> -->
 							<!-- <?php
@@ -40,7 +40,7 @@
 									break;
 
 								default:
-									echo "";
+									
 									# code...
 									break;
 							}
