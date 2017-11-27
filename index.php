@@ -78,9 +78,9 @@
 								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
 							</div> -->
 							<div class="field">
-								<label>Você já é cliente?</label>
+								<label>Você já é cliente?
 								<input type="radio" id="client_yes" name="client" value="CLIENTE"/><label for="client_yes">Sim</label>
-								<input type="radio" id="client_no" name="client" value="NOVO CLIENTE"/><label for="client_no">Não</label>
+								<input type="radio" id="client_no" name="client" value="NOVO CLIENTE"/><label for="client_no">Não</label></label>
 							</div>
 							<ul class="actions">
 								<li><input type="submit" class="button" value="Enviar"></input></li>
