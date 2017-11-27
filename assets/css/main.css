@@ -343,7 +343,7 @@
 	input[type="password"],
 	input[type="email"],
 	select {
-		height: 2.75em;
+		height: 2em;
 	}
 
 	textarea {
@@ -370,7 +370,7 @@
 			color: #414f57;
 			cursor: pointer;
 			display: inline-block;
-			font-size: 1em;
+			font-size: 0.6em;
 			font-weight: 300;
 			padding-left: 2.4em;
 			padding-right: 0.75em;
