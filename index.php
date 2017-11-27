@@ -20,7 +20,7 @@
 				<!-- Main -->
 					<section id="main">
 						<header>
-							<span><img src="images/logocompleto.png" width="160" alt="" /></span>
+							<span><img src="images/logocompleto.png" width="160" alt="" style="opacity:0.7"/></span>
 							<!-- <h1>INOVA ENERGIA SOLAR</h1>
 							<p>Senior Psychonautics Engineer</p> -->
 							<!-- <?php
