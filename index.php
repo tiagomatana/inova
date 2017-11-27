@@ -20,7 +20,7 @@
 				<!-- Main -->
 					<section id="main">
 						<header>
-							<span><img src="images/logocompleto.png" width="160" alt="" style="opacity:0.7"/></span>
+							<span><img src="images/logocompleto.png" width="160" alt="" style="opacity:0.8"/></span>
 							<!-- <h1>INOVA ENERGIA SOLAR</h1>
 							<p>Senior Psychonautics Engineer</p> -->
 							<!-- <?php
@@ -51,51 +51,16 @@
 
 						<hr />
 						<h2>Entre em contato</h2>
-						<form method="post" action="https://inovaenergia.com.br/email.php">
-							<div class="field">
-								<input type="text" name="name" id="name" placeholder="Nome" />
-							</div>
-							<div class="field">
-								<input type="email" name="email" id="email" placeholder="Email" />
-							</div>
-							<div class="field">
-								<input type="text" name="fone" id="fone" placeholder="Telefone" />
-							</div>
-							<!-- <div class="field">
-								<div class="select-wrapper">
-									<select name="department" id="department">
-										<option value="">Departamento</option>
-										<option value="VENDAS">Vendas</option>
-										<option value="TECNICO">Suporte Técnico</option>
-										<option value="CONSULTORIA">Consultoria</option>
-									</select>
-								</div>
-							</div> -->
-							<div class="field">
-								<textarea name="message" id="message" placeholder="Mensagem" rows="4"></textarea>
-							</div>
-							<!-- <div class="field">
-								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
-							</div> -->
-							<div class="field">
-								<label>Você já é cliente?
-								<input type="radio" id="client_yes" name="client" value="CLIENTE"/><label for="client_yes">Sim</label>
-								<input type="radio" id="client_no" name="client" value="NOVO CLIENTE"/><label for="client_no">Não</label></label>
-							</div>
-							<ul class="actions">
-								<li><input type="submit" class="button" value="Enviar"></input></li>
-							</ul>
-						</form>
-						<hr />
+						<ul class="icons">
+							<!-- <li><a href="#" class="fa-twitter">Twitter</a></li>-->
+							<li id="iconWhats"><a href="https://api.whatsapp.com/send?phone=555180257497" class="fa-whatsapp" id="whatsSquare">Whatsapp</a></li>
+							<li><a href="https://facebook.com/inovaenergiasolar" class="fa-facebook">Facebook</a></li>
+							<li><a href="contato.php" class="fa-envelope">Email</a></li>
+						</ul>
+						
+					
 
-						<footer>
-							<ul class="icons">
-								<!-- <li><a href="#" class="fa-twitter">Twitter</a></li>-->
-								<li id="iconWhats"><a href="https://api.whatsapp.com/send?phone=555180257497" class="fa-whatsapp" id="whatsSquare">Whatsapp</a></li>
-								<li><a href="https://facebook.com/inovaenergiasolar" class="fa-facebook">Facebook</a></li>
-								<li><a href="mailto:diogo@inovaenergia.com.br" class="fa-envelope">Email</a></li>
-							</ul>
-						</footer>
+					
 					</section>
 
 				<!-- Footer -->

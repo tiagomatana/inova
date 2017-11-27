@@ -26,15 +26,15 @@ if(!empty($name) && !empty($from) && !empty($subject) && !empty($message)){
     'X-Mailer: PHP/' . phpversion();
 
     if(mail($to, $subject, $message, $headers)){
-      header('Location: http://inovaenergia.com.br?email=success');
+      header('Location: http://inovaenergia.com.br/contato.php?email=success');
         // echo "Email enviado com sucesso.";
     } else {
-      header('Location: http://inovaenergia.com.br?email=fail');
+      header('Location: http://inovaenergia.com.br/contato.php?email=fail');
         // echo "Não foi possível enviar o email.";
     }
 
 } else {
-  header('Location: http://inovaenergia.com.br?email=incompleto');
+  header('Location: http://inovaenergia.com.br/contato.php?email=incompleto');
     echo "Não foi possível enviar o email! Dados incompletos.";
 }
 
