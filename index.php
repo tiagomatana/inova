@@ -99,11 +99,11 @@
 					</section>
 
 				<!-- Footer -->
-					<footer id="footer">
+					<!-- <footer id="footer">
 						<ul class="copyright">
 							<li>&copy; INOVA</li><li>Development: <a href="https://tiagomatana.com">TMD</a></li>
 						</ul>
-					</footer>
+					</footer> -->
 
 			</div>
 
